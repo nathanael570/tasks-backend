@@ -11,6 +11,6 @@ public class RootController {
 	
 	@GetMapping
 	public String hello() {
-		return "Hello World!";
+		return "Hello World! - http status code 200 OK Estas requisição foi bem sucedida.";
 	}
 }
